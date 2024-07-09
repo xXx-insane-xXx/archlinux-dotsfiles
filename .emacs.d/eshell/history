@@ -1,0 +1,128 @@
+python main.py 
+exit
+python main.py 
+exit
+python main.py 
+exit
+python main.py 
+exit
+python main.py 
+exit
+python main.py 
+exit
+python main.py 
+exit
+python main.py 
+exit
+python main.py 
+exit
+python main.py 
+exit
+python first.ins
+exit
+python first.ins
+python interpretor.py first.ins
+exit
+python interpretor.py first.ins
+python interpretor.py ./first.ins
+ls
+python interpretor.py first.ins
+exit
+python interpretor.py first.ins
+nvim first.ins 
+exit
+javac random.java 
+java random
+java random
+java random
+java random
+java random
+java random
+exit
+java random
+javac random,java
+javac random.java
+java random
+java random
+java random
+java random
+java random
+java random
+java random
+exit
+python test.py first.ins 
+exit
+python test.py second.ins 
+exit
+python test.py second.ins 
+python test.py second.ins 
+python interpretor.py second.ins 
+exit
+python interpretor.py second.ins 
+exit
+python interpretor.py second.ins 
+python interpretor.py first.ins 
+exit
+cpp test.c 
+exit
+cpp test.c 
+clear
+exit
+gcc main.c 
+./a.out 
+exit
+./a.out 
+gcc main.c 
+./a.out 
+./a.out 
+./a.out 
+exit
+gcc main.c 
+./a.out 
+./a.out 
+exit
+gcc main.c 
+exit
+gcc main.c 
+exit
+gcc main.c 
+./a.out 
+exit
+gcc main.c 
+exit
+gcc main.c 
+./a.out 
+exit
+gcc main.c 
+./a.out 
+exit
+gcc main.c 
+./a.out 
+exit
+./a.out 
+gcc main.c 
+./a.out 
+exit
+gcc main.c 
+./a.out 
+exit
+gcc main.c 
+./a.out 
+exit
+gcc main.c 
+./a.out 
+exit
+gcc ma
+gcc main.c
+exit
+ls
+mkdir 01
+mkdir 02
+exit
+s
+ls
+gcc stack.c 
+./a.out 
+exit
+python test.py 
+exit
