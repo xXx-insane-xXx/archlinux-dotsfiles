@@ -1,0 +1,37 @@
+import = [
+    "~/.config/alacritty/themes/themes/hyper.toml"
+]
+
+[font]
+size = 9.0
+
+[font.bold]
+#family = "Jetbrains Mono"
+family = "PrasevkaIomataMNLv2 Nerd Font"
+#family = "Lilex"
+style = "Bold"
+
+[font.bold_italic]
+#family = "Jetbrains Mono"
+family = "PrasevkaIomataMNLv2 Nerd Font"
+#family = "Lilex"
+style = "Bold Italic"
+
+[font.italic]
+#family = "Jetbrains Mono"
+family = "PrasevkaIomataMNLv2 Nerd Font"
+#family = "Lilex"
+style = "Italic"
+
+[font.normal]
+#family = "Jetbrains Mono"
+family = "PrasevkaIomataMNLv2 Nerd Font"
+#family = "Lilex"
+style = "Regular"
+
+
+[window]
+opacity = 1 
+blur=true
+
+
