@@ -1,4 +1,5 @@
 ##---- Startup ----##
+insaneENV
 if command -v pyjoke &>/dev/null; then
     cowsay -f satanic $(pyjoke) | lolcat
 fi
