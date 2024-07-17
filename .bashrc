@@ -1,6 +1,5 @@
-
 ##---- Startup ----##
-
+insaneENV
 if command -v pyjoke &>/dev/null; then
     cowsay -f satanic $(pyjoke) | lolcat
 fi
@@ -76,7 +75,7 @@ alias rr='curl -s -L https://raw.githubusercontent.com/keroserene/rickrollrc/mas
 ##---- Env Variables ----##
 
 # path
-export PATH="$PATH:/home/insane/.dotnet/tools/:/home/insane/.local/bin/"
+export PATH="$PATH:/home/insane/.dotnet/tools/:/home/insane/.local/bin/:/home/insane/.local/scripts/"
 
 # python modules
 export PYTHONPATH=$PYTHONPATH:/home/insane/.insane/PythonCustomModules
