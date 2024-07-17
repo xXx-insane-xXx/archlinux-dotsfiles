@@ -31,6 +31,8 @@ call plug#begin()
     Plug 'nvim-lua/plenary.nvim'
     Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.6' }
 
+    Plug 'ThePrimeagen/vim-be-good' " Vim be good
+    
 call plug#end()
 
 colorscheme tokyonight
