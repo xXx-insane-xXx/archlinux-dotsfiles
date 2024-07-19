@@ -31,7 +31,7 @@ style = "Regular"
 
 
 [window]
-opacity = 1 
+opacity = 0.85
 blur=true
 
 
