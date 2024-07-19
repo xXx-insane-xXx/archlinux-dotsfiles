@@ -10,10 +10,10 @@ vim.opt.shiftwidth = 4        -- the number of spaces inserted for each indentat
 vim.opt.tabstop = 4           -- insert 2 spaces for a tab
 vim.opt.relativenumber = true -- relative line numbers
 vim.opt.wrap = true           -- wrap lines
-vim.opt.guicursor = "" 
+vim.opt.guicursor = ""
 
 
-lvim.colorscheme = "tokyonight-night"
+lvim.colorscheme = "zenbones"
 lvim.builtin.lualine.style = "lvim" -- or "none"
 -- Custom plugins
 
@@ -32,8 +32,30 @@ lvim.plugins = {
     },
     {
         "lunarvim/colorschemes"
+    },
+    {
+        'jesseleite/nvim-noirbuddy',
+        dependencies = {
+            { 'tjdevries/colorbuddy.nvim' }
+        },
+        lazy = true,
+        priority = 1000,
+        opts = {
+            -- All of your `setup(opts)` will go here
+            require('noirbuddy').setup {
+                preset = 'crt-green',
+            }
+        },
+    },
+
+    {
+        "rktjmp/lush.nvim",
+    },
+
+    {
+        "zenbones-theme/zenbones.nvim",
     }
 }
 
-
--- Color Scheme
+vim.g.zenbones_solid_line_nr = true
+vim.g.zenbones_darken_comments = 45

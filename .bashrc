@@ -69,9 +69,11 @@ alias insaneENV="source /home/insane/.insane/InsanePythonEnv/bin/activate"
 alias rr='curl -s -L https://raw.githubusercontent.com/keroserene/rickrollrc/master/roll.sh | bash'
 
 
+##---- Export ----##
+export EDITOR=lvim
 
 
-##---- Env Variables ----##
+##---- Environment Variables ----##
 
 # path
 export PATH="$PATH:/home/insane/.dotnet/tools/:/home/insane/.local/bin/:/home/insane/.local/scripts/"
