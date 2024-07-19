@@ -10,9 +10,11 @@ vim.opt.shiftwidth = 4        -- the number of spaces inserted for each indentat
 vim.opt.tabstop = 4           -- insert 2 spaces for a tab
 vim.opt.relativenumber = true -- relative line numbers
 vim.opt.wrap = true           -- wrap lines
+vim.opt.guicursor = "" 
+
 
 lvim.colorscheme = "tokyonight-night"
-
+lvim.builtin.lualine.style = "lvim" -- or "none"
 -- Custom plugins
 
 lvim.plugins = {
