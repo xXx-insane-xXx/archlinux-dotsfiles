@@ -9,6 +9,7 @@ size = 9.0
 #family = "Jetbrains Mono"
 family = "PrasevkaIomataMNLv2 Nerd Font"
 #family = "Lilex"
+# family = "Terminess Nerd Font"
 style = "Bold"
 
 [font.bold_italic]
@@ -27,11 +28,12 @@ style = "Italic"
 #family = "Jetbrains Mono"
 family = "PrasevkaIomataMNLv2 Nerd Font"
 #family = "Lilex"
+# family = "Terminess Nerd Font"
 style = "Regular"
 
 
 [window]
 opacity = 1
-blur=true
+blur = true
 
 
