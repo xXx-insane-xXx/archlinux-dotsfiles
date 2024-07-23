@@ -54,6 +54,11 @@ lvim.plugins = {
 
     {
         "zenbones-theme/zenbones.nvim",
+    },
+    
+    {
+        "rose-pine/neovim",
+        name = "rose-pine"
     }
 }
 
