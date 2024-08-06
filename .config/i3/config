@@ -236,6 +236,7 @@ exec_always --no-startup-id blueman-applet
 exec_always --no-startup-id dunst
 exec --no-startup-id /usr/lib/kdeconnectd
 exec --no-startup-id megasync
+exec --no-startup-id polychromatic-tray-applet
 
 
 # #----GAPS----# #
