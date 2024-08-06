@@ -13,7 +13,7 @@ vim.opt.wrap = true           -- wrap lines
 vim.opt.guicursor = ""
 
 
-lvim.colorscheme = "zenbones"
+lvim.colorscheme = "kanagawabones"
 lvim.builtin.lualine.style = "lvim" -- or "none"
 -- Custom plugins
 
@@ -55,10 +55,14 @@ lvim.plugins = {
     {
         "zenbones-theme/zenbones.nvim",
     },
-    
+
     {
         "rose-pine/neovim",
         name = "rose-pine"
+    },
+
+    {
+        "mg979/vim-visual-multi"
     }
 }
 
