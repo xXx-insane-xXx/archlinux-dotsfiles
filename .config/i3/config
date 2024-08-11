@@ -187,6 +187,9 @@ bar
 #for_window [class="^.*"] border pixel 2
 for_window [class="floating_terminal"] floating enable
 for_window [class="Understanding GD script"] floating enable
+for_window [floating] resize set 900 500
+for_window [class="megasync"] floating disable
+for_window [class="MEGAsync"] floating disable
 
 # #----Basic Key binds----# #
 bindsym $mod+Escape	workspace prev
@@ -234,6 +237,7 @@ exec_always --no-startup-id nm-applet
 exec_always --no-startup-id ~/.config/i3/Scripts/filen.sh
 exec_always --no-startup-id blueman-applet
 exec_always --no-startup-id dunst
+exec_always --no-startup-id libinput-gestures-setup start
 exec --no-startup-id /usr/lib/kdeconnectd
 exec --no-startup-id megasync
 exec --no-startup-id polychromatic-tray-applet
