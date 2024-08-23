@@ -1,6 +1,6 @@
 ##---- Startup ----##
-if command -v pyjoke &>/dev/null; then
-    cowsay -f satanic $(pyjoke) | lolcat
+if command -v pyjokes &>/dev/null; then
+    cowsay -f satanic $(pyjokes) | lolcat
 fi
 
 #fastfetch -c neofetch
@@ -63,7 +63,9 @@ alias ..="cd .."
 alias ll="ls -la"
 
 # all purpose python virtual env
-alias insaneENV="source /home/insane/.insane/InsanePythonEnv/bin/activate"
+alias insaneENV="source /home/insane/.virtualenvs/InsanePythonEnv/bin/activate"
+alias stableDiffEnv="source /home/insane/.virtualenvs/StableDiffEnv/bin/activate"
+alias oobaboogaVirtualEnv="source /home/insane/.virtualenvs/oobaboogaVirtualEnv/bin/activate"
 
 # the terminal rickroll
 alias rr='curl -s -L https://raw.githubusercontent.com/keroserene/rickrollrc/master/roll.sh | bash'
@@ -77,6 +79,12 @@ export EDITOR=lvim
 
 # path
 export PATH="$PATH:/home/insane/.dotnet/tools/:/home/insane/.local/bin/:/home/insane/.local/scripts/"
+#export python_cmd="python3.11"
+# export __NV_PRIME_RENDER_OFFLOAD=1
+# export __GLX_VENDOR_LIBRARY_NAME=nvidia
+
+
+
 
 # python modules
 export PYTHONPATH=$PYTHONPATH:/home/insane/.insane/PythonCustomModules

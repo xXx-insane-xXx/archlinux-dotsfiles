@@ -8,7 +8,7 @@
  ("/home/insane/Main/programming/python-lang/" . "networking/")
  ("/home/insane/Main/duke/" . "C-programming/")
  ("/home/insane/Main/my-websites/" . "interesting-articles/")
- ("/home/insane/.config/" . "libvirt/")
+ ("/home/insane/.config/" . "mpv/")
  ("/home/insane/Main/OSSU/programming-languages/PASCAL/" . "intro/")
  ("/home/insane/Main/OSSU/programming-languages/" . "PASCAL/")
  ("/home/insane/Main/college-work/" . "MGT/")
@@ -29,6 +29,7 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/insane/.config/mpv/"
  "/home/insane/Main/programming/python-lang/networking/ReverseShell/"
  "/home/insane/.emacs.d/"
  "/home/insane/Main/programming/self-projects/python/pacmanQDT/"
@@ -81,6 +82,7 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "mpv.conf"
  "client.py"
  "init.el"
  "main.py"
@@ -90,22 +92,31 @@
  "01.py"
  "stack.c"
  "main.pas"
- "helloworld.pas"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/insane/.config/mpv/" (26264 63195 323198 645000) "encoding.rst" "input.conf" "mpv.conf" "./" "../" "tech-overview.txt" "restore-old-bindings.conf" "mplayer-input.conf")
+
+ ("/home/insane/.config/" (26275 11090 616819 971000) "katevirc" "smplayer/" "lvim/" "mimeapps.list" "nvim/" "dunst/" "qBittorrent/" "alacritty/" "coc/" "QtProject.conf" "picom/" "Thunar/" "procps/" "i3/" "zed/" "sxiv/" "GitKraken/" "Electron/" "Code/" "JetBrains/" "openstego/" "autostart/" "racket/" "./" "xfce4/" "gtk-3.0/" "../" "mpv/" "menus/" "okularrc" "fontforge/" "htop/" "codeblocks/" "filen-desktop/" "spotify/" "pulse/" "discord/" "dconf/" "kdeveloprc" "mypaint/" "pavucontrol.ini" "chromium/")
+
+ ("/home/insane/Downloads/" (26275 326 549181 720000) "nand2tetris.zip" "dosbox-0.74-3.tar.gz" "fp/" "Pulsar-1.118.2024070703.AppImage" "WhatsApp Image 2024-07-26 at 3.27.22 AM.jpeg" "kali-linux-2024.Ahc6BJKd.2-qemu-amd64.7z.part" "CLion-2024.1.4.tar.gz" "Logseq-linux-x64-0.HCRKsz22.10.9.AppImage.part" "dosbox-0.74-3/" "sayan.jpeg" "lmde-6-cinnamon-32bit.iso.torrent" "suspect_chats.pdf" "__MACOSX/" "ArchLinux.zip" "ECE2002_DIGITAL-LOGIC-DESIGN_LTP_1.0_1_ECE2002.pdf" "WhatsApp Image 2024-07-26 at 3.27.22 AM(1).jpeg" "cowsay-3.03.tar.Z" "./" "../" "kali-linux-2024.2-qemu-amd64.7z" "cowsay-3.03/" "jetbrains-toolbox-2.4.0.32175/" "Logseq-linux-x64-0.10.9.AppImage" "WhatsApp Image 2024-07-26 at 3.59.21 AM(1).jpeg" "WhatsApp Image 2024-07-26 at 3.27.21 AM.jpeg" "MAT2001_DIFFERENTIAL-AND-DIFFERENCE-EQUATIONS_LT_1.0_1_Differential and Difference Equations.pdf" "jetbrains-toolbox-2.4.0.32175.tar.gz")
+
+ ("/home/insane/Main/programming/" (26258 46694 653995 644000) "Cpp/" "Python/" "./" "../" "CLang/")
+
+ ("/home/insane/.emacs.d/" (26263 3462 407292 789000) "init.el" "ido.last~" "multisession/" "init.el~" ".mc-lists.el" "games/" "tutorial/" "ido.last" "elgrep-data.el" "./" "../" "kkcrc" "eshell/" "auto-save-list/" "elpa/" "transient/")
+
+ ("/home/" (26252 7393 399879 887000) "insane/" "./" "../")
+
+ ("/home/insane/Main/" (26264 64036 306590 219000) "nand2tetris/" "osint/" "Wallpapers/" "ctf/" "udemy_courses/" "collegework/" "books/" "ossu/" "expenses/" "git_practice/" "mega_downloads/" "./" "odin-project/" "../" "qemu/" "programming/" "softwares/" "pico/")
+
+ ("/home/insane/" (26275 42159 971875 944000) ".wget-hsts" ".nuget/" ".nvidia-settings-rc" ".gitconfig" ".pki/" "Downloads/" ".bash_history" ".bash_profile" ".dotfiles/" ".lesshst" ".bash_profile.bak" ".nvm/" ".java/" ".nvmrc" "Stuff/" ".gk/" ".xinitrc" "Main/" ".gtkrc-2.0" ".cargo/" ".insane/" ".bash_history-00580.tmp" ".fleet/" ".local/" ".ssh/" ".gnupg/" ".vim/" ".python_history" ".nv/" "Documents/" ".gitkraken/" ".fonts/" ".vimrc" ".cache/" ".vscode/" "./" "../" ".bashrc" ".fehbg" ".Xresources" ".git/" ".npm/" "Pictures/" ".m2/" ".viminfo" ".mozilla/" "Music/" ".bash_logout" ".Xauthority" ".emacs.d/" ".profile" ".config/")
+
  ("/home/insane/Main/programming/Cpp/cherno/controlflow/" (26257 33271 350941 912000) "Log.cpp" "./" "Main.cpp" "../")
 
  ("/home/insane/Main/programming/Cpp/cherno/" (26257 33206 730943 466000) "loops/" "controlflow/" "./" "../")
 
  ("/home/insane/Main/programming/Cpp/" (26257 33206 730943 466000) "cherno/" ".vscode/" "./" "../")
-
- ("/home/insane/Main/programming/" (26256 24545 714174 43000) "Cpp/" "./" "../" "CLang/")
-
- ("/home/insane/Main/" (26256 56197 50077 387000) "osint/" "Wallpapers/" "ctf/" "collegework/" "books/" "ossu/" "expenses/" "./" "../" "qemu/" "programming/" "pico/")
-
- ("/home/insane/" (26257 33073 787613 330000) ".wget-hsts" "install.sh.1" ".nvidia-settings-rc" ".gitconfig" ".pki/" "Downloads/" ".bash_history" ".bash_profile" ".dotfiles/" ".lesshst" "install.sh" ".java/" "Stuff/" ".xinitrc" "Main/" ".gtkrc-2.0" ".cargo/" ".insane/" ".local/" ".ssh/" ".gnupg/" ".python_history" ".vimrc" ".cache/" ".vscode/" "./" "../" ".bashrc" ".fehbg" ".Xresources" ".git/" ".npm/" ".m2/" ".viminfo" ".mozilla/" ".bash_logout" ".Xauthority" ".emacs.d/" ".config/")
 
  ("/home/insane/Main/programming/python-lang/networking/ReverseShell/" (26241 13152 189099 831000) "client.py" "./" "README.md" ".git/" "#client.py#" "../" "server.py")
 
@@ -121,11 +132,7 @@
 
  ("/home/insane/Main/the-odin-project/foundations-course/repos/odin-recipes/recipes/" (26165 46727 789176 229000) "./" "pizza.html" "burger.html" "lasagna.html" "pasta.html" "../" "style.css")
 
- ("/home/insane/Downloads/" (26187 39090 705891 643000) "Module4.pdf" "Hollow Knight [FitGirl Repack]/" "Schedule_Term End Examinations_Winter Semester 2023-24.pdf" "nerd-patcher/" "Module-1.pdf" "./" "Anaconda3-2024.02-1-Linux-x86_64.sh" "Packet_Tracer822_amd64_signed.deb" "whonix/" "hp/" "Course List_Fall_24-25.pdf" "space_background_pack.zip" "Module-2.pdf" "dead-cells-v3.3.15-mod-menu.apk" "a-_220-1101_self-paced_v1-0_sample.pdf" "tmp/" "tails/" "Module-5.pdf" "Module-3.pdf" "../" "poliigon-addon-blender.zip")
-
  ("/home/insane/Main/OSSU/intro-cs/mit-6.0001/lecture-06/" (26155 40206 805292 42000) "test.c" "706228e592761d9c7c1c073f8ba7a6cc_lec6_recursion_dictionaries.py" "./" "02.py" "01.py" "05.py" "03.py" "a.out" "../" "04.py" "dict01.py")
-
- ("/home/insane/.emacs.d/" (26187 32348 130433 646000) ".mc-lists.el" ".cache/" "./" "elgrep-data.el" "kkcrc" "init.el" "auto-save-list/" "url/" "init.el~" "multisession/" "ido.last~" "elpa/" "tutorial/" "../" "eshell/" "ido.last" "transient/" "games/")
 
  ("/home/insane/Main/OSSU/intro-cs/mit-6.0001/oops/" (26177 39858 17262 444000) "07.py" "./" "02.py" "06.py" "01.py" "05.py" "03.py" "../" "04.py" "joke.py")
 
@@ -247,11 +254,7 @@
 
  ("/home/insane/Main/OSSU/" (26133 19229 0 0) "./" "intro-cs/" "programming-languages/" "../")
 
- ("/home/" (26136 32718 611789 437000) "./" "insane/" "../")
-
  ("/home/insane/.config/libvirt/" (26137 62211 913958 31000) "./" "libvirt.conf" "qemu/" "../" "secrets/")
-
- ("/home/insane/.config/" (26135 62265 0 0) "cava/" "gtk-4.0/" "protonvpn/" "tmux/" "yay/" "procps/" "sublime-text/" "gtk-3.0/" "libvirt/" "alacritty/" "transmission/" "xchm.conf" "./" "nitrogen/" "polybar/" "systemd/" "vim/" "BraveSoftware/" "gromit-mpx.ini" "dunst/" "mpv/" "chromium/" "xfce4/" "sxiv/" "libfm/" "i3/" "spotify/" ".filen.trash.local/" "ranger/" "gtk-2.0/" "kitty/" "onlyoffice/" "QtProject.conf" "Code/" "caja/" "nvim/" "dconf/" "picom/" "mypaint/" "chromium-flags.conf" "htop/" "pavucontrol.ini" "pulse/" "Proton/" "filen-desktop/" "../" "qutebrowser/" "pcmanfm/" "neofetch/" "Thunar/" "matplotlib/" "window-geometry.conf")
 
  ("/home/insane/Main/OSSU/programming-languages/PASCAL/intro/" (26135 19187 203384 677000) "../" "./" "helloworld.pas" "helloworld" "helloworld.o")
 
@@ -292,8 +295,6 @@
  ("/media/" (26091 38585 952729 658000) "./" "../")
 
  ("/home/insane/.emacs.d/elpa/" (26120 26169 674421 966000) "cyberpunk-theme-1.22/" "../" "./" "org-9.6.24/" "ace-jump-mode-20140616.815/" "doom-themes-20240320.121/" "dash-20240103.1301/" "emmet-mode-20221111.329/" "zenburn-theme-20231120.2002/" "grep-a-lot-20210618.1420/" "solarized-theme-20231204.713/" "gnupg/" "gruvbox-theme-20230921.120/" "org-9.6.24.signed" "gruber-darker-theme-20231026.2031/" "cyberpunk-theme-1.22.signed" "spacemacs-theme-20230530.1751/" "autothemer-20230414.1419/" "nyan-mode-20220408.2334/" "multiple-cursors-20240223.1134/" "archives/" "ace-mc-20190206.749/")
-
- ("/home/insane/.emacs.d/elpa/grep-a-lot-20210618.1420/" (26120 26169 887750 820000) "../" "./" "grep-a-lot.el" "grep-a-lot.elc" "grep-a-lot-pkg.el" "grep-a-lot-autoloads.el")
 )
 
 ;; ----- ido-unc-hosts-cache -----
