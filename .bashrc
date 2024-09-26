@@ -69,7 +69,7 @@ alias oobaboogaVirtualEnv="source /home/insane/.virtualenvs/oobaboogaVirtualEnv/
 
 # the terminal rickroll
 alias rr='curl -s -L https://raw.githubusercontent.com/keroserene/rickrollrc/master/roll.sh | bash'
-
+alias anaconda-navigator="prime-run anaconda-navigator"
 
 ##---- Export ----##
 export EDITOR=lvim
@@ -78,7 +78,7 @@ export EDITOR=lvim
 ##---- Environment Variables ----##
 
 # path
-export PATH="$PATH:/home/insane/.dotnet/tools/:/home/insane/.local/bin/:/home/insane/.local/scripts/"
+export PATH="$PATH:/home/insane/.dotnet/tools/:/home/insane/.local/bin/:/home/insane/.local/scripts/:/usr/lib/rstudio"
 #export python_cmd="python3.11"
 # export __NV_PRIME_RENDER_OFFLOAD=1
 # export __GLX_VENDOR_LIBRARY_NAME=nvidia
