@@ -190,6 +190,7 @@ for_window [class="Understanding GD script"] floating enable
 for_window [floating] resize set 900 500
 for_window [class="megasync"] floating disable
 for_window [class="MEGAsync"] floating disable
+for_window [class="Matplotlib"] floating enable
 
 # #----Basic Key binds----# #
 bindsym $mod+Escape	workspace prev
@@ -217,6 +218,7 @@ bindsym $mod+shift+Return exec --no-startup-id tilda
 bindsym $mod+d exec --no-startup-id dmenu_run -fn "PrasevkaIomataMNLv2 Nerd Font" -nb "$fg" -nf "$bg" -sb "$bg" -sf "#ffffff" 
 bindsym $mod+Shift+semicolon exec --no-startup-id "i3lock -i /home/insane/Main/Wallpapers/fori3lock/07.png 
 bindsym Print exec --no-startup-id flameshot gui
+bindsym $mod+shift+m exec --no-startup-id rofimoji
 
 # Scripts
 bindsym $mod+ctrl+1 exec --no-startup-id $Script/sxiv_theme_chooser.sh 

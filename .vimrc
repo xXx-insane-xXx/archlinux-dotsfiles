@@ -8,3 +8,4 @@ set breakindent
 set breakindentopt=shift:0,min:0,sbr
 set linebreak
 set nocp    "Disable compatible mode
+syntax on

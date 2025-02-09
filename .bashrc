@@ -77,7 +77,7 @@ export EDITOR=lvim
 ##---- Environment Variables ----##
 
 # path
-export PATH="$PATH:/home/insane/.dotnet/tools/:/home/insane/.local/bin/:/home/insane/.local/scripts/:/usr/lib/rstudio"
+export PATH="$PATH:/home/insane/.dotnet/tools/:/home/insane/.local/bin/:/home/insane/.local/scripts/:/usr/lib/rstudio:"
 #export python_cmd="python3.11"
 # export __NV_PRIME_RENDER_OFFLOAD=1
 # export __GLX_VENDOR_LIBRARY_NAME=nvidia
@@ -86,8 +86,13 @@ export PATH="$PATH:/home/insane/.dotnet/tools/:/home/insane/.local/bin/:/home/in
 
 
 # python modules
-export PYTHONPATH=$PYTHONPATH:/home/insane/.insane/PythonCustomModules
+export PYTHONPATH=$PYTHONPATH:/home/insane/.insane/PythonCustomModules:/home/insane/.virtualenvs/InsanePythonEnv/lib/python3.12/site-packages
 
+
+##---- Useful commands ----##
+
+# Prevent overwrites with >
+set -o noclobber
 
 
 
